@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+
+    <servlet>
+        <servlet-name>demo1</servlet-name>
+        <servlet-class>com.summary.servlet.SummaryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>demo1</servlet-name>
+        <url-pattern>/demo1</url-pattern>
+    </servlet-mapping>
+
+</web-app>
