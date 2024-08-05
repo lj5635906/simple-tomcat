@@ -11,7 +11,7 @@
 <Server>
     <Connector port="8081"></Connector>
     <Engine>
-        <Host name="localhost" appBase="D:\workspace\summary\webapps">
+        <Host name="localhost" appBase="D:\workspace\summary\simple-tomcat\summary-simple-tomcat\src\main\webapps">
         </Host>
     </Engine>
 </Server>
@@ -24,15 +24,17 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <web-app>
+
     <servlet>
-        <servlet-name>demo</servlet-name>
+        <servlet-name>demo1</servlet-name>
         <servlet-class>com.summary.servlet.SummaryServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>demo</servlet-name>
-        <url-pattern>/demo</url-pattern>
+        <servlet-name>demo1</servlet-name>
+        <url-pattern>/demo1</url-pattern>
     </servlet-mapping>
+
 </web-app>
 ```
 
